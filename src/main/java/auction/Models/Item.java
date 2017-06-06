@@ -24,13 +24,14 @@ public class Item implements Comparable {
     @ManyToOne(targetEntity = Category.class, cascade = CascadeType.PERSIST)
     private Category category;
     private String description;
-    @OneToOne(targetEntity = Bid.class)
+    @OneToOne(targetEntity = Bid.class, cascade = CascadeType.PERSIST)
     private Bid highest;
 
     public Item(User seller, Category category, String description) {
         this.seller = seller;
         this.category = category;
         this.description = description;
+        this.highest = new Bid(new User("temp"), new Money(1, "fake"));
     }
 
     public Item() {
