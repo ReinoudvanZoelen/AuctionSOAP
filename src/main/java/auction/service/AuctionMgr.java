@@ -5,7 +5,7 @@ import auction.Models.Item;
 import auction.Models.User;
 import auction.Repository.BidJPARepository;
 import auction.Repository.ItemJPARepository;
-import nl.fontys.util.Money;
+import auction.util.Money;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;

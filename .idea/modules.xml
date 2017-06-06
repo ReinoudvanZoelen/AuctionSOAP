@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AuctionClient.iml" filepath="$PROJECT_DIR$/AuctionClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuctionSOAPClient.iml" filepath="$PROJECT_DIR$/AuctionSOAPClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuctionWebClient.iml" filepath="$PROJECT_DIR$/AuctionWebClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuctionWebClient2.iml" filepath="$PROJECT_DIR$/AuctionWebClient2.iml" />
       <module fileurl="file://$PROJECT_DIR$/auction.iml" filepath="$PROJECT_DIR$/auction.iml" />
     </modules>
   </component>

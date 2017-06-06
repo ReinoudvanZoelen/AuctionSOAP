@@ -2,8 +2,7 @@ package auction.service;
 
 import static org.junit.Assert.*;
 
-import auction.Repository.ItemJPARepository;
-import nl.fontys.util.Money;
+import auction.util.Money;
 
 import org.junit.After;
 import org.junit.Before;
@@ -15,8 +14,6 @@ import auction.Models.Category;
 import auction.Models.Item;
 import auction.Models.User;
 import util.DatabaseCleaner;
-
-import javax.persistence.Persistence;
 
 public class SellerMgrTest {
 

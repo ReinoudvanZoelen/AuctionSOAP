@@ -1,7 +1,7 @@
 package auction.Models;
 
-import nl.fontys.util.FontysTime;
-import nl.fontys.util.Money;
+import auction.util.FontysTime;
+import auction.util.Money;
 
 import javax.persistence.*;
 

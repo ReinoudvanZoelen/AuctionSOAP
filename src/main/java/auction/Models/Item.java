@@ -1,6 +1,6 @@
 package auction.Models;
 
-import nl.fontys.util.Money;
+import auction.util.Money;
 
 import javax.persistence.*;
 

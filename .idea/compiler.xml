@@ -7,10 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="auction" />
+        <module name="AuctionClient" />
+        <module name="AuctionSOAPClient" />
+        <module name="AuctionWebClient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auction" target="1.8" />
+      <module name="AuctionClient" target="1.8" />
+      <module name="AuctionSOAPClient" target="1.8" />
+      <module name="AuctionWebClient" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

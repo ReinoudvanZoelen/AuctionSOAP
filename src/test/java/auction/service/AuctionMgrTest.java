@@ -2,7 +2,7 @@ package auction.service;
 
 import static org.junit.Assert.*;
 
-import nl.fontys.util.Money;
+import auction.util.Money;
 
 import org.junit.After;
 import org.junit.Before;

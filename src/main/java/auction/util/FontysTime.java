@@ -1,4 +1,4 @@
-package nl.fontys.util;
+package auction.util;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
